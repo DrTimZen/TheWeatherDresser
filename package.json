@@ -1,0 +1,19 @@
+{
+  "name": "theweatherdresser",
+  "version": "1.0.0",
+  "description": "A web app helpng with the right clothes at the actual weather at actual location.",
+  "main": "./js/model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrTimZen/TheWeatherDresser.git"
+  },
+  "author": "Tim Zen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrTimZen/TheWeatherDresser/issues"
+  },
+  "homepage": "https://github.com/DrTimZen/TheWeatherDresser#readme"
+}

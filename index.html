@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="web app, HTML, CSS, JavaScript" />
+    <meta
+      name="description"
+      content="A web app finding you the perfect clothing for the actual weather at your position."
+    />
+    <title>The Weather Dresser</title>
+
+    <!-- JavaScript -->
+    <script defer src="./js/controller.js" type="module"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- <button class="header-button">Gender</button> -->
+      <!-- <button class="header-button refresh">
+        <img class="header-icon" src="./images/refresh.png" alt="" />
+      </button>
+      <button class="header-button">
+        <img class="header-icon" src="./images/color-pick.png" alt="" />
+      </button> -->
+      <button class="header-button">
+        <img class="header-icon" src="./images/dots.png" alt="" />
+      </button>
+    </header>
+    <section id="weather" class="weather">
+      <img
+        class="weather-icon"
+        src="./images/weatherIcons/Sun.png"
+        alt="icon weather"
+      />
+
+      <div class="weather-data">
+        <p class="location">Berlin</p>
+        <p class="temp">14 ° / feels like 5 °</p>
+        <p class="condition">Cloudy</p>
+      </div>
+    </section>
+    <!-- CLOTHING -->
+    <section id="clothing" class="clothing">
+      <!-- head wear -->
+      <div class="head wear">
+        <div class="clothing-image-box">
+          <img
+            class="clothing-image"
+            src="./images/clothes/beanie.png"
+            alt="head wear"
+          />
+        </div>
+        <div class="clothing-description">
+          <p>head</p>
+          <p>glasses</p>
+          <p>scarf</p>
+        </div>
+      </div>
+      <!-- body wear -->
+      <div class="body wear">
+        <div class="clothing-image-box">
+          <img
+            class="clothing-image"
+            src="./images/clothes/jacket.png"
+            alt="head wear"
+          />
+        </div>
+        <div class="clothing-description">
+          <p>jacket</p>
+          <p>sweater</p>
+          <p>gloves</p>
+        </div>
+      </div>
+      <!-- leg wear -->
+      <div class="leg wear">
+        <div class="clothing-image-box">
+          <img
+            class="clothing-image"
+            src="./images/clothes/trousers.png"
+            alt="head wear"
+          />
+        </div>
+        <div class="clothing-description">
+          <p>trousers</p>
+          <p>pants</p>
+          <p>skirt</p>
+        </div>
+      </div>
+      <!-- shoes  -->
+      <div class="shoe wear">
+        <div class="clothing-image-box">
+          <img
+            class="clothing-image"
+            src="./images/clothes/sneakers.png"
+            alt="head wear"
+          />
+        </div>
+        <div class="clothing-description">
+          <p>shoes</p>
+          <p>socks</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
