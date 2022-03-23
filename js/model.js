@@ -11,10 +11,9 @@ export const getWeatherData = async function () {
     const { city: location } = await resLoc.json();
 
     const unit = 'metric';
-    const appKey = '6278da91c34589df20327aa91f30eeaa';
 
     const weatherRes = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${appKey}&units=${unit}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${process.env.APP_KEY}&units=${unit}`
     );
 
     const weatherData = await weatherRes.json();

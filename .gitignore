@@ -1,1 +1,4 @@
 .prettierrc
+.env
+# Local Netlify folder
+.netlify
